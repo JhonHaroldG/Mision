@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="%= BASE_URL %favicon.ico">
+    <title>Información del Estudiante</title>
+  </head>
+  <body>
+    <p aling="center">
+      <h1>Creación del Estudiante</h1>
+      <h2>I. Datos Personales</h2>
+    </p>
+    <form>
+        <p><label>Nombre: <input type="text" name="nombre"></label></p>
+        <p><label>Grado: <input type="text" name="grado"></label></p>
+        <p>
+          Sexo:
+          <label><input type="radio" name="sexomas" value="masculino"> Masculino</label>
+          <label><input type="radio" name="sexofem" value="femenino"> Femenino</label>
+        </p>
+        <p>
+          Identificación:
+          <label><input type="radio" name="identificacion" value="RegCivil"> R.C.</label>
+          <label><input type="radio" name="identificacion" value="TarjetaId"> T.I</label>
+          <label><input type="radio" name="identificacion" value="Cedula"> C.C</label> <label>Numero: <input type="text" name="NumId"></label>
+        </p>
+        <p><label>Dirección: <input type="text" name="direccion"></label><label>Teléfono: <input type="text" name="telefono"></label><label>Celular: <input type="text" name="celular"></label></p>
+        <p><label>Nombre de la Madre: <input type="text" name="madre"><label>Ocupación: <input type="text" name="ocupacionma"></p>
+        <p><label>Nombre del Padre: <input type="text" name="padre"><label>Ocupación: <input type="text" name="ocupacionpa"></p>
+    <p><label><input type="checkbox" name="novedades"> Me gustaría recibir novedades</label></p>
+    </form>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

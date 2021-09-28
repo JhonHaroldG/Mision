@@ -4,17 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="%= BASE_URL %favicon.ico">
+    <link rel="icon" href="..\public\favicon.png" type="image/png"/>
     <title>Información del Estudiante</title>
   </head>
   <body>
-    <p aling="center">
+    <p>
       <h1>Creación del Estudiante</h1>
       <h2>I. Datos Personales</h2>
     </p>
     <form>
         <p><label>Nombre: <input type="text" name="nombre"></label></p>
         <p><label>Grado: <input type="text" name="grado"></label></p>
+        <img src="http://scdpastoriza.com/wp-content/uploads/2017/07/jugador-sin-foto-perfil.png" valt="FotoPerfil" width="100" height="153" />
         <p>
           Sexo:
           <label><input type="radio" name="sexomas" value="masculino"> Masculino</label>
@@ -29,7 +30,7 @@
         <p><label>Dirección: <input type="text" name="direccion"></label><label>Teléfono: <input type="text" name="telefono"></label><label>Celular: <input type="text" name="celular"></label></p>
         <p><label>Nombre de la Madre: <input type="text" name="madre"><label>Ocupación: <input type="text" name="ocupacionma"></p>
         <p><label>Nombre del Padre: <input type="text" name="padre"><label>Ocupación: <input type="text" name="ocupacionpa"></p>
-    <p><label><input type="checkbox" name="novedades"> Me gustaría recibir novedades</label></p>
+    <p><button name="Crear">CREAR</button></p>
     </form>
     <div id="app"></div>
     <!-- built files will be auto injected -->
